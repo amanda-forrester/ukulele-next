@@ -25,3 +25,60 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+/* app stuff */
+
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #2d4336;
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.song_list {
+  text-align: left;
+}
+
+a {
+  color: rgb(100, 167, 100);
+}
+
+.text_box {
+  position:relative;
+  font-size: 1em;
+  background: linear-gradient(21deg, #65956a, #f3faf2);
+  padding: 3px;
+  display: inline-block;
+  /*border-radius: 9999em;*/
+  width: 100px
+}
+
+.submit_button {
+	color:#FFFFFF;
+	background-color:#65956a;
+	border-color:#65956a;
+	cursor:pointer; 
+	border:1px solid transparent; 
+	padding:6px 16px; 
+	font-size:14px; 
+	border-radius:4px;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #2d4336;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
