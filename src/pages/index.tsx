@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import { FormEvent, useEffect, useState } from 'react';
 import { SongsComponent } from '@/components/SongsComponent';
 import { Song } from '@/queries/queries';
+import { NavBar } from '@/components/NavBar';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,6 +25,7 @@ export default function Home() {
 
   return (
     <div className='App'>
+      <NavBar />
       <header className='App-header'>
         <h1>Ukulele Song Finder</h1> <br></br>
         <img src='/ukulele_photo.jpg' className='App-logo' alt='logo' />
