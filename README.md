@@ -9,7 +9,7 @@ npm run dev
 
 ## Usage
 
-Input a chord and it will search the Postgres database for songs that contain that chord. It will return song names with links to the music.
+Input a chord and it will search the Supabase database for songs that contain that chord. It will return song names with links to the music.
 
 ## Tech Stack
 
