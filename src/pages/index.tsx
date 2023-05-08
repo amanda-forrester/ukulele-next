@@ -28,7 +28,7 @@ export default function Home() {
         <h1>Ukulele Song Finder</h1> <br></br>
         <img src='/ukulele_photo.jpg' className='App-logo' alt='logo' />
         <p>
-          Enter the name of a chord to find ukulele songs that contain that chord. Use &quot;b&quot; for flat and &quot;m&quot; for minor.
+          Enter the name of a chord to find ukulele songs that contain that chord. Use &quot;b&quot; for flat, &quot;m&quot; for minor and &quot;maj&quot; for major.
         </p>
         <SongsComponent songs={songs} onSubmit={handleSubmit} />
       </header>
