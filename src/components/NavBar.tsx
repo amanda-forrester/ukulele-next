@@ -1,27 +1,34 @@
-// components/Navbar.tsx
 import React from "react";
-import Link from "next/link";
+import Link from 'next/link';
 
-
-export function Navbar() {
+export function NavBar() {
   return (
-    <div className="navbar bg-base-100">
-      <div className="flex-1">
-        <a className="btn btn-ghost normal-case text-xl">My Website</a>
-      </div>
-      <div className="flex-none">
-        <ul className="menu menu-horizontal px-1">
-          <li>
+    <div className="navbar flex justify-end items-center bg-amber-50 p-3">
+      <ul className="flex menu menu-horizontal space-x-4">
+        <li>
+          <div className="link-box">
             <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="/contact">Find By Chords</Link>
-          </li>
-          <li>
-            <Link href="/about">Discover a new song</Link>
-          </li>
-        </ul>
-      </div>
+          </div>
+        </li>
+        <li>
+          <div className="link-box">
+            <Link href="/findbychords">Find By Chords</Link>
+          </div>
+        </li>
+        <li>
+          <div className="link-box">
+            <Link href="/discover">Discover a new song</Link>
+          </div>
+        </li>
+      </ul>
+      <style jsx>{`
+        .link-box {
+          border: 1px solid black;
+          padding: 0.5rem;
+        }
+      `}</style>
     </div>
   );
 };
+
+
