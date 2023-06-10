@@ -25,13 +25,13 @@ export default function Home() {
 
   return (
     <div className='App'>
-      <NavBar />
+      {/*<NavBar />*/}
       <header className='App-header'>
         <h1 className="text-5xl font-semibold text-white shadow-lg shadow-text">
         Ukulele Song Finder
         </h1>
         <br></br>
-        <img src='/ukulele_photo.jpg' className='App-logo' alt='logo' />
+        <img src='/ukulele_photo.jpg' className='App-logo border-double border-4 border-gray-600 bg-gray-300 px-4 py-2 m-1 rounded-lg' alt='logo' />
         <p>
           Enter the name of a chord to find ukulele songs that contain that chord. Use &quot;b&quot; for flat, &quot;m&quot; for minor and &quot;maj&quot; for major.
         </p>

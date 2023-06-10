@@ -30,10 +30,10 @@ export function SongsComponent({ songs, onSubmit }: SongComponentProps) {
           ? <p>No songs found.</p>
           
           // ...and we found some
-          : <ol className= "song_list"> 
+          : <ol className="song_list list-decimal"> 
               {songs.map((song) => (
               <li key={song.song_name}>
-                <a href={song.song_url} target="_blank" rel="noopener noreferrer">{song.song_name} by {song.song_artist}</a> 
+                <a href={song.song_url} target="_blank" rel="noopener noreferrer" className="underline">{song.song_name} by {song.song_artist}</a> 
               </li>
             ))}
           </ol>
