@@ -69,7 +69,8 @@ a {
 	padding:6px 16px; 
 	font-size:14px; 
 	border-radius:4px;
-  text-align: center;
+  	text-align: center;
+	margin-left: 10px;
 }
 
 .App-header {
